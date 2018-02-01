@@ -1,0 +1,23 @@
+Foi utilizado como base o  video https://www.youtube.com/watch?v=btBfTapYx1o
+
+Projeto de monitoramento de Temperatura usando o sensor DTH11 com Arduino
+O sensor DTH11(modulo) precisa da biblioteca DTH11 
+link da biblioteca https://drive.google.com/file/d/0ByRfNb3lGBaGS3ZVTFdWR1lyTjQ/view?pli=1
+
+Obs: o sensor DTH11 ja instalado no modulo possuir apenas três pinos com a seguinte descrição:
+1°  pino de dados - ligado na porta digital 2 do arduino(nesse exemplo)
+2°  pino de força  - (5 v) 
+3°  pino GND - terra
+
+pode-se usar o monitor serial para vizualizar as informações geradas no projeto que são a temperatura em C° e F° e a umidade 
+
+Especificações DHT11:
+
+– Alimentação: 3,0 a 5,0 VDC (5,5 Vdc máximo)
+– Corrente: 200uA a 500mA, em stand by de 100uA a 150 uA
+– Faixa de medição de umidade: 20 a 90% UR
+– Faixa de medição de temperatura: 0º a 50ºC
+– Precisão de umidade de medição: ± 5,0% UR
+– Precisão de medição de temperatura: ± 2.0 ºC
+– Tempo de resposta: < 5s
+– Dimensões: 23mm x 12mm x 5mm (incluindo terminais)
