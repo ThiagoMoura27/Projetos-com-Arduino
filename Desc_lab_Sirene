@@ -1,0 +1,40 @@
+Proejto de Sirene de ambulancia com arduino
+base do projeto, tutorial: https://portal.vidadesilicio.com.br/usando-o-buzzer-com-arduino-transdutor-piezo-eletrico/
+
+Material
+- buzzer
+- jumpers
+- placa arduino
+
+ligações
+
+o pino positivo do buzzer liga-se na porta 7 do arduino de acordo com o código fonte e o pino negativo liga-se no GND da placa do arduino
+
+obs:
+
+ buzzer emita o som de uma sirene é necessario que a frequência do som emitido aumente e diminua. Dessa forma, o buzzer irá variar de frequências mais graves até frequências mais agudas e vice-versa.
+Para isso, usaremos a função seno em conjunto com a variável parâmetro de for, o x, que varia de 0 a 180. A ideia é que x simbolize 0 a 180 graus, como a função sin faz o cálculo usando valores em radianos. Precisamos converter graus para radianos. A variável seno receberá o valor de seno para o ângulo x convertido em radianos.
+seno=(sin(x*3.1416/180));
+1 seno=(sin(x*3.1416/180));
+
+Seno será um valor entre 0 e 1, visto que trabalharemos com um ângulo menor que 180 graus. Dessa forma, multiplicaremos por 1000 para que ele varie de 0 a 1000 e posteriormente somamos a 2000, que será a frequência mínima do som.
+frequencia = 2000+(int(seno*1000));
+Portanto, teremos a variável frequência variando entre 2000 e 3000 em função de x, que irá variar conforme o bloco for incrementá-lo.
+
+Tone
+
+Por fim, no Arduino, temos uma função que gera uma onda pulsante na frequência desejada. O nome dessa função é tone.
+
+ tone(pino,frequência);
+ tone(pino,frequência,duração);
+
+Para usar essa função, devemos definir o pino de saída, a frequência do tom e, caso queira, a duração em milissegundos da onda. Em nossa experiência usamos da seguinte forma:
+
+  tone(9,frequencia);
+1
+	
+  tone(9,frequencia);
+
+Veja que a frequência de saída irá variar entre 2000Hz e 3000Hz.
+
+Vale lembrar que quando o x for 180, o programa irá sair de for, porem irá executá-lo novamente, devido ao fato de tudo que está dentro da função loop ser executado ciclicamente.
