@@ -1,0 +1,12 @@
+Projeto de semáforo usando arduino
+material
+3 leds(verde,amarela,vermelha)
+3 resistores
+1 arduino
+1 protobord
+
+obs:
+foram no pino GND( negativo) do arduino foram ligado os resitores que cada um estava ligado aos pinos negativos dos LEDs e ja os pinos 
+positvos dos LEDs estavam ligados nas portas 12, 11,10 do arduino de acordo com o codigo podendo ser alterados, basta apenas modificar 
+o código para os pinos que você vai usar.
+
