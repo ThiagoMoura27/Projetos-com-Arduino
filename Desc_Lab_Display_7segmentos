@@ -1,0 +1,29 @@
+Projeto de Contador regressivo com display 7 segmentos
+foi utilizado a tutorial do site: https://arduinoexamples.wordpress.com/2012/10/06/display-de-7-segmentos-1-digito/
+
+
+material:
+- arduino
+- display 7 segmentos
+- resitor
+- conectores
+
+O display de 7 segmentos, como o próprio nome diz, tem 7 partes, ou segmentos, que podem ser agrupados de modo 
+a formar números e letras.Os segmentos são organizados de A a F .
+
+
+Assim, se você quiser mostrar o número 1, basta ativar os segmentos B e C. Para mostrar o número 3, os segmentos A, B, C, D e G, e assim por diante.
+
+A ligação ao Arduino usa os pinos de 2 a 9, mais o GND,  na seguinte sequencia :
+
+Pino 2 do Arduino ====> Pino segmento A
+Pino 3 do Arduino ====> Pino segmento B
+Pino 4 do Arduino ====> Pino segmento C
+Pino 5 do Arduino ====> Pino segmento D
+Pino 6 do Arduino ====> Pino segmento E
+Pino 7 do Arduino ====> Pino segmento F
+Pino 8 do Arduino ====> Pino segmento G
+Pino 9 do Arduino ====> Pino segmento PONTO
+Pino GND do Arduino => Pino 3 do display
+
+Um ponto importante é a utilização dos resistores de 220 ohms para cada pin
