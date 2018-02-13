@@ -1,0 +1,5 @@
+projeto feito a partir da tutorial no site https://www.tecdicas.com/39/como-acender-e-piscar-um-led-no-arduino
+
+foi utilizado apenas um led,resistor e placa arduino
+o pino negativodo led foi ligado na porta GND do arduino e o pino positivo foi ligado no resitor onde o mesmo foi ligado na porta 12 
+do arduino, a porta pode ser modificada bastando apenas modificar no código 
