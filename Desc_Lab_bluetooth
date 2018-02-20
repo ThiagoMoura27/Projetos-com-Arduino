@@ -1,0 +1,11 @@
+Projeto de leitura usando um sensor de temperatura e modulo bluetooth 
+
+Material
+ - placa arduino
+ - sensor de temperatura LM35DZ
+ - modulo bluetooth
+ 
+ obs: para fazer a leitura dos dados pelo bluetooth é necessario desconectar a placa do arduino do cabo usb 
+ pois gera conflito com o mudulo bluetooth
+ 
+ 
