@@ -1,0 +1,41 @@
+Projeto usando sensor de infra-vermelho para acender led com arduino
+
+material:
+  - placa arduino
+  - sensor infra-vermelho
+  - 3 leds
+  - 3 resitores
+  - conectores
+  - controle remoto(tv)
+  
+
+tutorial visto no site: https://eletronicaparatodos.com/controlando-3-leds-com-controle-remoto-e-arduino/
+
+1° etapa e testar os dados que o controle remoto passa pro sensor
+apertar os botões necessarios e verificar o código(vem em hexadecimal) e transformar em decimal.
+
+no meu controle(tv lg)
+btn1 -551520375
+btn2 -551504055 
+btn3 -551536695
+btn4 -551495895
+btn5 -551528535
+btn6 -551512215
+
+2º etapa pegar os dados passado e de acordo com o Led eu vou passar um codigo pra ligar e outro pra desligar o led usando o 
+controle remoto.
+
+#obs:
+o projeto necesista da biblioteca para o sensor 
+
+
+Receptor IR
+O receptor IR tem três pinos (e cada um deles com uma específica finalidade)
+
+    OUT (SAÍDA, ou como também chamada, SIGNAL = SINAL)
+    GND (TERRA)
+    VCC (FONTE DE TENSÃO)
+
+
+Link para converte os numeros hexadecimais em decimal
+https://www.binaryhexconverter.com/hex-to-decimal-converter
