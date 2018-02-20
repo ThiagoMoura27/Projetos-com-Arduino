@@ -1,0 +1,12 @@
+Projeto usando um sensor de luminosidade para acender uma led com arduino
+
+material:
+  - placa arduino
+  - sensor de luminosidade
+  - led
+  - fios
+  - dois resistores, um de 330 ohms para o led e outro de 10K para o LDR.
+  
+  tutorial usado no projeto visto no site: https://www.arduinoecia.com.br/2013/09/controle-de-luz-utilizando-ldr.html
+  
+  
