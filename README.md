@@ -11,6 +11,9 @@ Projetos feitos com Arduino
    tutorial visto em: https://arduinoexamples.wordpress.com/2012/10/06/display-de-7-segmentos-1-digito/
 5. Lab_acender_led_cbotao - projeto de acender led com botão no arduino
 6. Lab_sirene - projeto de sirene com arduino
+7. Lab_sensor_luminosidade - projeto de acender uma led com o auxilio de um sensor de luminosidade, mesmo principio que 
+   existe nos postes de iluminação. 
+8  
 
 
    
