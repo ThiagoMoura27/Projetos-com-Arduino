@@ -13,7 +13,7 @@ Projetos feitos com Arduino
 6. Lab_sirene - projeto de sirene com arduino
 7. Lab_sensor_luminosidade - projeto de acender uma led com o auxilio de um sensor de luminosidade, mesmo principio que 
    existe nos postes de iluminação. 
-8  
+8. Lab_InfraVermelho - projeto simples usando sensor de infravermelho para acender leds com controle remoto da TV.  
 
 
    
