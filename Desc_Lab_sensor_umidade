@@ -1,0 +1,15 @@
+Projeto usando arduino e sensor de umidade 
+Tutorial visto no site: http://blog.usinainfo.com.br/sensor-de-umidade-de-solo/
+
+mateiral
+  - placa arduino
+  - sensor umidade do solo 
+  - conectores
+  
+ Obs: 
+ 
+ Sensor de Umidade de Solo possui dois tipos de saídas: A0 e D0, onde A0 é o canal analógico, 
+ no qual podemos obter a sua precisão, pois recebemos valores reais, em números de 0 a 1023.
+ Já o canal D0, é o canal digital, que trabalha somente com 0 ou 1 (ligado ou desligado),
+ para ajustar o ponto onde o sensor vai ligar esta saída, você pode ajustar através do potenciômetro, 
+ encontrado em cima do módulo do Sensor de Umidade de Solo.
