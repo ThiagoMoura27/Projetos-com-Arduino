@@ -16,6 +16,7 @@ Projetos feitos com Arduino
 8. Lab_InfraVermelho - projeto simples usando sensor de infravermelho para acender leds com controle remoto da TV.  
 9. Lab_sensor_umidade_solo - projeto usando um sensor de umidade do solo com arduino
 10. Lab_sensor_temp_com_bluetooth - projeto usando um sensor de temperatura e um modulo bluetooth  
+11. Lab_sensor_ultrassonicHC-SR04 - projeto usando um sensor ultrassonic com placa arduino
 
 
 
