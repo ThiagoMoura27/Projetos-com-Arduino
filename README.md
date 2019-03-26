@@ -1,7 +1,8 @@
 Projetos com Arduino
-====
+
 
 Projetos feitos com Arduino
+--------------------------------------------------------------------------------------------------------------
 
 1. Lab_temp_dth11 - projeto de monitoramento de temperatura e umidade com sensor DTH11
 2. Lab_acender_led - projeto simples para acender uma led com arduino
@@ -19,5 +20,9 @@ Projetos feitos com Arduino
 11. Lab_sensor_ultrassonicHC-SR04 - projeto usando um sensor ultrassonic com placa arduino
 
 
+Projetos parte II
+----------------------------------------------------------------------------------------------------------------
 
+1. Projeto de mini estação meterologica - sensores: chuva, umidade e temperatura 
+tutorial visto em: http://portaldoarduino.com.br/estacao-meteorologica-arduino-dht11-sensor-de-cuva/
    
