@@ -1,7 +1,5 @@
 ![arduino-logo](https://user-images.githubusercontent.com/7269314/78952616-93bfb700-7aac-11ea-8c5c-a9ff8fd4bf27.jpg)
 
-Projetos com Arduino
-
 
 Projetos feitos com Arduino
 --------------------------------------------------------------------------------------------------------------
